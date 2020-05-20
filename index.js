@@ -18,7 +18,7 @@ function getTime(seconds) {
   return roundUpHour(seconds);
 }
 
- //Write two functions: one to handle an input that will convert to minutes only; another to handle an input that will convert to both hours and minutes/just hours;
+ //Write two functions: one to handle an input that will convert to minutes only; another to handle an input that will convert to both hours and minutes;
 
 //Function 1 to translate seconds into minutes
 function roundUpFiveMin(secs) {
@@ -35,7 +35,7 @@ function roundUpFiveMin(secs) {
   }
 }
 
-//Function 2
+//Function 2 to translate seconds in hour(s) and a remainder of minutes
 function roundUpHour(secs) {
       if (secs > 7199) {
       let hours = secs / 3600;
